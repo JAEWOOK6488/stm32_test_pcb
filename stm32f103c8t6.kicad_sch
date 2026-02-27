@@ -1,0 +1,106 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "bd823326-686b-4669-b4e8-652a43eb6bb4")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 97.79 22.86)
+		(size 31.75 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "01d50728-be12-47d4-a3b3-3530cdf67424")
+		(property "Sheetname" "LM1117"
+			(at 97.79 22.1484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "LM1117.kicad_sch"
+			(at 97.79 36.1446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Field2" ""
+			(at 97.79 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "stm32f103c8t6"
+				(path "/bd823326-686b-4669-b4e8-652a43eb6bb4"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 27.94 22.86)
+		(size 53.34 67.31)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "fca77638-a419-4dbc-9084-058e5a3b219f")
+		(property "Sheetname" "STM32F103C8_MCU"
+			(at 27.94 22.1484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "STM32F103C8_MCU.kicad_sch"
+			(at 27.94 90.7546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "stm32f103c8t6"
+				(path "/bd823326-686b-4669-b4e8-652a43eb6bb4"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

@@ -5,8 +5,168 @@
 	(uuid "bd823326-686b-4669-b4e8-652a43eb6bb4")
 	(paper "A4")
 	(lib_symbols)
+	(wire
+		(pts
+			(xy 59.69 48.26) (xy 64.77 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0112f57a-1e7e-4bae-9eeb-dc36472bfd37")
+	)
+	(wire
+		(pts
+			(xy 59.69 53.34) (xy 64.77 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06840240-6f0a-499f-9e6d-c1f0c2732aae")
+	)
+	(wire
+		(pts
+			(xy 59.69 55.88) (xy 64.77 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e2bee1c-42d5-4512-a485-5aa6aef15721")
+	)
+	(wire
+		(pts
+			(xy 59.69 50.8) (xy 64.77 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae7ff308-bc68-4161-9ca3-cde60f001460")
+	)
+	(wire
+		(pts
+			(xy 74.93 39.37) (xy 82.55 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b583b9d7-91fd-4e0a-84a9-3440785f175e")
+	)
+	(wire
+		(pts
+			(xy 74.93 31.75) (xy 82.55 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5342df9-8f09-4eca-ac78-1504094e7e70")
+	)
+	(wire
+		(pts
+			(xy 74.93 43.18) (xy 82.55 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d26727bf-434c-4a71-a6d6-5f110d4e6a92")
+	)
+	(wire
+		(pts
+			(xy 74.93 35.56) (xy 82.55 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1ccd0d4-3349-4fba-b786-aa5788cb54d6")
+	)
+	(label "LED3"
+		(at 74.93 39.37 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "06cc4ee5-5a37-4839-89cc-35a0eeadcd56")
+	)
+	(label "LED2"
+		(at 64.77 50.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1ab74a75-a6df-47a3-af66-6fe13d76bd6f")
+	)
+	(label "LED1"
+		(at 74.93 31.75 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4f628699-2fce-448c-b6e1-32f77610cc12")
+	)
+	(label "LED2"
+		(at 74.93 35.56 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5410aa9b-1bcb-4593-a4f6-77cd5807da2d")
+	)
+	(label "LED3"
+		(at 64.77 53.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a41d89c8-b661-494a-92a3-ace6cab1a692")
+	)
+	(label "LED4"
+		(at 64.77 55.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "af162f36-bba8-4e02-b106-7ac1ca5bcf73")
+	)
+	(label "LED1"
+		(at 64.77 48.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cab46fdf-3ff2-4200-b63f-3005cc69d310")
+	)
+	(label "LED4"
+		(at 74.93 43.18 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e7b5107c-673c-405d-8819-f68f945842bb")
+	)
 	(sheet
-		(at 97.79 22.86)
+		(at 27.94 21.59)
 		(size 31.75 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22,7 +182,7 @@
 		)
 		(uuid "01d50728-be12-47d4-a3b3-3530cdf67424")
 		(property "Sheetname" "LM1117"
-			(at 97.79 22.1484 0)
+			(at 27.94 20.8784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31,7 +191,7 @@
 			)
 		)
 		(property "Sheetfile" "LM1117.kicad_sch"
-			(at 97.79 36.1446 0)
+			(at 27.94 34.8746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40,7 +200,7 @@
 			)
 		)
 		(property "Field2" ""
-			(at 97.79 22.86 0)
+			(at 27.94 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -56,7 +216,89 @@
 		)
 	)
 	(sheet
-		(at 27.94 22.86)
+		(at 27.94 45.72)
+		(size 31.75 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "417559c3-f209-435e-9a7f-a3295fb9237d")
+		(property "Sheetname" "LED"
+			(at 27.94 45.0084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "led.kicad_sch"
+			(at 27.94 59.0046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "LED_IN_1" input
+			(at 59.69 48.26 0)
+			(uuid "5bc7ba96-b269-4679-baeb-e5cc5fcf6f95")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "LED_IN_2" input
+			(at 59.69 50.8 0)
+			(uuid "8c9df07f-0ba9-4f40-8a81-b7714ea14327")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "LED_IN_3" input
+			(at 59.69 53.34 0)
+			(uuid "c852e1c1-a438-4774-af2a-b04d4bd73cb8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "LED_IN_4" input
+			(at 59.69 55.88 0)
+			(uuid "637f4225-311b-4b17-a636-166605d1e1ea")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "stm32f103c8t6"
+				(path "/bd823326-686b-4669-b4e8-652a43eb6bb4"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 82.55 20.32)
 		(size 53.34 67.31)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -72,7 +314,7 @@
 		)
 		(uuid "fca77638-a419-4dbc-9084-058e5a3b219f")
 		(property "Sheetname" "STM32F103C8_MCU"
-			(at 27.94 22.1484 0)
+			(at 82.55 19.6084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -81,12 +323,52 @@
 			)
 		)
 		(property "Sheetfile" "STM32F103C8_MCU.kicad_sch"
-			(at 27.94 90.7546 0)
+			(at 82.55 88.2146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "MCU_OUT_1" output
+			(at 82.55 31.75 180)
+			(uuid "d9c8ecc4-5140-46d7-8431-10a2e45507fd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MCU_OUT_2" output
+			(at 82.55 35.56 180)
+			(uuid "f3ae4d08-6395-4619-a754-b2fa36f057ab")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MCU_OUT_3" output
+			(at 82.55 39.37 180)
+			(uuid "df68b372-f8d3-4676-b141-a0b928a9841b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MCU_OUT_4" output
+			(at 82.55 43.18 180)
+			(uuid "4ebd4a43-5934-4d44-94a8-09f8995bad38")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances

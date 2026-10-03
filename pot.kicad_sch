@@ -1312,7 +1312,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm"
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Alps_RK09K_Single_Vertical"
 			(at 97.79 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -1408,7 +1408,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1b3e78d2-0c89-4a82-9002-ceafae1a1f90")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR044"
 			(at 161.29 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -1468,7 +1468,7 @@
 		(instances
 			(project "stm32f103c8t6"
 				(path "/bd823326-686b-4669-b4e8-652a43eb6bb4/44ab54ba-53a5-410a-906a-77df5de9df15"
-					(reference "#PWR032")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -1486,7 +1486,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1c1c3079-13d2-4a1f-8251-550d679ca6e7")
-		(property "Reference" "C12"
+		(property "Reference" "C13"
 			(at 54.61 86.3599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1550,7 +1550,7 @@
 		(instances
 			(project "stm32f103c8t6"
 				(path "/bd823326-686b-4669-b4e8-652a43eb6bb4/44ab54ba-53a5-410a-906a-77df5de9df15"
-					(reference "C12")
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -1568,7 +1568,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2ed45347-69da-4c6b-96f9-91501bb74974")
-		(property "Reference" "R17"
+		(property "Reference" "R30"
 			(at 172.72 77.47 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1588,7 +1588,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 172.974 82.804 90)
 			(hide yes)
 			(show_name no)
@@ -1630,7 +1630,7 @@
 		(instances
 			(project "stm32f103c8t6"
 				(path "/bd823326-686b-4669-b4e8-652a43eb6bb4/44ab54ba-53a5-410a-906a-77df5de9df15"
-					(reference "R17")
+					(reference "R30")
 					(unit 1)
 				)
 			)
@@ -1670,7 +1670,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm"
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Alps_RK09K_Single_Vertical"
 			(at 161.29 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -1766,7 +1766,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3b03a607-531a-4421-8e8e-d0ab65cff97e")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR040"
 			(at 27.94 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -1826,7 +1826,7 @@
 		(instances
 			(project "stm32f103c8t6"
 				(path "/bd823326-686b-4669-b4e8-652a43eb6bb4/44ab54ba-53a5-410a-906a-77df5de9df15"
-					(reference "#PWR028")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -1844,7 +1844,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3c43f762-9aba-425e-86ef-6823ff179990")
-		(property "Reference" "C15"
+		(property "Reference" "C16"
 			(at 251.46 87.6299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1908,7 +1908,7 @@
 		(instances
 			(project "stm32f103c8t6"
 				(path "/bd823326-686b-4669-b4e8-652a43eb6bb4/44ab54ba-53a5-410a-906a-77df5de9df15"
-					(reference "C15")
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -1926,7 +1926,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "440f77c5-60fc-4249-870d-39d6f68010a0")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR046"
 			(at 224.79 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -1986,7 +1986,7 @@
 		(instances
 			(project "stm32f103c8t6"
 				(path "/bd823326-686b-4669-b4e8-652a43eb6bb4/44ab54ba-53a5-410a-906a-77df5de9df15"
-					(reference "#PWR034")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -2004,7 +2004,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "68bebe28-2592-4ea3-a582-f118fa27f243")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR039"
 			(at 27.94 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -2064,7 +2064,7 @@
 		(instances
 			(project "stm32f103c8t6"
 				(path "/bd823326-686b-4669-b4e8-652a43eb6bb4/44ab54ba-53a5-410a-906a-77df5de9df15"
-					(reference "#PWR027")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -2082,7 +2082,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6ada32bf-467a-4250-91d5-ecf8afc2aef5")
-		(property "Reference" "R15"
+		(property "Reference" "R28"
 			(at 39.37 76.2 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2102,7 +2102,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 39.624 81.534 90)
 			(hide yes)
 			(show_name no)
@@ -2144,7 +2144,7 @@
 		(instances
 			(project "stm32f103c8t6"
 				(path "/bd823326-686b-4669-b4e8-652a43eb6bb4/44ab54ba-53a5-410a-906a-77df5de9df15"
-					(reference "R15")
+					(reference "R28")
 					(unit 1)
 				)
 			)
@@ -2162,7 +2162,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6c507bf6-33b2-4daa-8cf4-64c3d2bb0855")
-		(property "Reference" "R16"
+		(property "Reference" "R29"
 			(at 109.22 76.2 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2182,7 +2182,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 109.474 81.534 90)
 			(hide yes)
 			(show_name no)
@@ -2224,7 +2224,7 @@
 		(instances
 			(project "stm32f103c8t6"
 				(path "/bd823326-686b-4669-b4e8-652a43eb6bb4/44ab54ba-53a5-410a-906a-77df5de9df15"
-					(reference "R16")
+					(reference "R29")
 					(unit 1)
 				)
 			)
@@ -2242,7 +2242,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "94150927-ac51-4fe0-9071-1f0e141de9fd")
-		(property "Reference" "C14"
+		(property "Reference" "C15"
 			(at 187.96 87.6299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2306,7 +2306,7 @@
 		(instances
 			(project "stm32f103c8t6"
 				(path "/bd823326-686b-4669-b4e8-652a43eb6bb4/44ab54ba-53a5-410a-906a-77df5de9df15"
-					(reference "C14")
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -2324,7 +2324,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9dd99357-a32a-4b4d-b362-c749d5d69a9c")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR042"
 			(at 97.79 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -2384,7 +2384,7 @@
 		(instances
 			(project "stm32f103c8t6"
 				(path "/bd823326-686b-4669-b4e8-652a43eb6bb4/44ab54ba-53a5-410a-906a-77df5de9df15"
-					(reference "#PWR030")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -2402,7 +2402,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "afe23233-cde6-4554-94a6-a1d0139ffceb")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR045"
 			(at 224.79 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -2462,7 +2462,7 @@
 		(instances
 			(project "stm32f103c8t6"
 				(path "/bd823326-686b-4669-b4e8-652a43eb6bb4/44ab54ba-53a5-410a-906a-77df5de9df15"
-					(reference "#PWR033")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -2502,7 +2502,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm"
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Alps_RK09K_Single_Vertical"
 			(at 27.94 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -2598,7 +2598,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b84dd4e3-d0b6-4637-85dc-c84bc46b9600")
-		(property "Reference" "C13"
+		(property "Reference" "C14"
 			(at 124.46 86.3599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2662,7 +2662,7 @@
 		(instances
 			(project "stm32f103c8t6"
 				(path "/bd823326-686b-4669-b4e8-652a43eb6bb4/44ab54ba-53a5-410a-906a-77df5de9df15"
-					(reference "C13")
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -2680,7 +2680,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ba109ca2-c01f-4bf5-b505-268f08b522d5")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR041"
 			(at 97.79 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -2740,7 +2740,7 @@
 		(instances
 			(project "stm32f103c8t6"
 				(path "/bd823326-686b-4669-b4e8-652a43eb6bb4/44ab54ba-53a5-410a-906a-77df5de9df15"
-					(reference "#PWR029")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -2758,7 +2758,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "da4fe488-9690-42f8-8173-9c05f9a036b5")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR043"
 			(at 161.29 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -2818,7 +2818,7 @@
 		(instances
 			(project "stm32f103c8t6"
 				(path "/bd823326-686b-4669-b4e8-652a43eb6bb4/44ab54ba-53a5-410a-906a-77df5de9df15"
-					(reference "#PWR031")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -2836,7 +2836,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e2f33d72-36ab-4b8f-9227-5e1f084d3fb6")
-		(property "Reference" "R18"
+		(property "Reference" "R31"
 			(at 236.22 77.47 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2856,7 +2856,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 236.474 82.804 90)
 			(hide yes)
 			(show_name no)
@@ -2898,7 +2898,7 @@
 		(instances
 			(project "stm32f103c8t6"
 				(path "/bd823326-686b-4669-b4e8-652a43eb6bb4/44ab54ba-53a5-410a-906a-77df5de9df15"
-					(reference "R18")
+					(reference "R31")
 					(unit 1)
 				)
 			)
@@ -2938,7 +2938,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm"
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Alps_RK09K_Single_Vertical"
 			(at 224.79 83.82 0)
 			(hide yes)
 			(show_name no)

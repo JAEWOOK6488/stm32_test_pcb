@@ -1403,6 +1403,50 @@
 		(color 0 0 0 0)
 		(uuid "fdbac04a-eb36-441a-af94-81b84c1f0162")
 	)
+	(no_connect
+		(at 176.53 83.82)
+		(uuid "02fa765f-1800-49a0-9916-d53c983af787")
+	)
+	(no_connect
+		(at 176.53 81.28)
+		(uuid "17a70f2e-808e-46cf-be02-9bd715d62b2f")
+	)
+	(no_connect
+		(at 176.53 106.68)
+		(uuid "4c4563ec-352c-4ccc-8a7d-15238290926e")
+	)
+	(no_connect
+		(at 176.53 86.36)
+		(uuid "7b0a60cf-8791-402d-9e6e-015ef64118f0")
+	)
+	(no_connect
+		(at 176.53 109.22)
+		(uuid "7eddd7e0-bb14-4016-b652-eb5ee5f9b744")
+	)
+	(no_connect
+		(at 176.53 93.98)
+		(uuid "a01263db-4c28-4368-9e82-21bdde6a9b81")
+	)
+	(no_connect
+		(at 135.89 104.14)
+		(uuid "a9fc1c08-ec36-4600-ba37-7fe4a39bf1e8")
+	)
+	(no_connect
+		(at 176.53 88.9)
+		(uuid "b2bf089b-a874-45e9-99f8-fec75e8aedf4")
+	)
+	(no_connect
+		(at 176.53 91.44)
+		(uuid "d2c2290b-c940-4c78-89ac-25ddb852b74b")
+	)
+	(no_connect
+		(at 176.53 111.76)
+		(uuid "d47ec467-e954-4cda-868d-59235d0dd7dd")
+	)
+	(no_connect
+		(at 135.89 99.06)
+		(uuid "d8860c91-17ad-4d50-bfba-8eb57af3157f")
+	)
 	(wire
 		(pts
 			(xy 207.01 58.42) (xy 207.01 68.58)
@@ -1532,6 +1576,16 @@
 			(type default)
 		)
 		(uuid "6ca8644d-6395-4e57-8c22-880c57c9bce8")
+	)
+	(wire
+		(pts
+			(xy 132.08 111.76) (xy 132.08 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7577307e-247e-4694-bd39-7f726940ce58")
 	)
 	(wire
 		(pts
@@ -1675,6 +1729,16 @@
 	)
 	(wire
 		(pts
+			(xy 135.89 111.76) (xy 132.08 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab6efba9-44e3-48aa-9a1f-b689b8a3ea1e")
+	)
+	(wire
+		(pts
 			(xy 179.07 41.91) (xy 179.07 31.75)
 		)
 		(stroke
@@ -1808,7 +1872,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0bed7d64-9daf-4efe-b1d4-d0bf87fe82aa")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR054"
 			(at 158.75 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -1868,7 +1932,7 @@
 		(instances
 			(project "stm32f103c8t6"
 				(path "/bd823326-686b-4669-b4e8-652a43eb6bb4/b6e9bfc2-4cf7-4d7e-81c9-9912399d557a"
-					(reference "#PWR036")
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -1886,7 +1950,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "12b3f32c-56ca-487b-8bfa-c5db2decef7f")
-		(property "Reference" "R22"
+		(property "Reference" "R33"
 			(at 205.74 97.536 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1906,7 +1970,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 205.994 102.616 90)
 			(hide yes)
 			(show_name no)
@@ -1948,7 +2012,7 @@
 		(instances
 			(project "stm32f103c8t6"
 				(path "/bd823326-686b-4669-b4e8-652a43eb6bb4/b6e9bfc2-4cf7-4d7e-81c9-9912399d557a"
-					(reference "R22")
+					(reference "R33")
 					(unit 1)
 				)
 			)
@@ -1966,7 +2030,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "131434d3-184e-48ae-9c27-4cb4bbd4d74f")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR051"
 			(at 151.13 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -2026,7 +2090,7 @@
 		(instances
 			(project "stm32f103c8t6"
 				(path "/bd823326-686b-4669-b4e8-652a43eb6bb4/b6e9bfc2-4cf7-4d7e-81c9-9912399d557a"
-					(reference "#PWR039")
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -2044,7 +2108,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "224ccb35-ea7f-4fe4-9082-4b485e292dea")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR053"
 			(at 156.21 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -2104,7 +2168,7 @@
 		(instances
 			(project "stm32f103c8t6"
 				(path "/bd823326-686b-4669-b4e8-652a43eb6bb4/b6e9bfc2-4cf7-4d7e-81c9-9912399d557a"
-					(reference "#PWR040")
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -2122,7 +2186,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2f4f5ccb-9816-420f-ab5f-884520e675b6")
-		(property "Reference" "C19"
+		(property "Reference" "C18"
 			(at 121.92 68.58 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2184,7 +2248,7 @@
 		(instances
 			(project "stm32f103c8t6"
 				(path "/bd823326-686b-4669-b4e8-652a43eb6bb4/b6e9bfc2-4cf7-4d7e-81c9-9912399d557a"
-					(reference "C19")
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -2202,7 +2266,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "312afa15-ef37-4120-90ad-8e032b7b1762")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR050"
 			(at 114.3 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -2262,7 +2326,7 @@
 		(instances
 			(project "stm32f103c8t6"
 				(path "/bd823326-686b-4669-b4e8-652a43eb6bb4/b6e9bfc2-4cf7-4d7e-81c9-9912399d557a"
-					(reference "#PWR037")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -2279,7 +2343,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "46083dc6-b087-4ff0-beb0-2801c1786b9c")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR057"
 			(at 218.44 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -2339,7 +2403,7 @@
 		(instances
 			(project "stm32f103c8t6"
 				(path "/bd823326-686b-4669-b4e8-652a43eb6bb4/b6e9bfc2-4cf7-4d7e-81c9-9912399d557a"
-					(reference "#PWR045")
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -2357,7 +2421,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "64ffbfe2-33f0-44f7-b758-b30777bcb04c")
-		(property "Reference" "U3"
+		(property "Reference" "U4"
 			(at 160.8933 67.31 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2493,7 +2557,7 @@
 		(instances
 			(project "stm32f103c8t6"
 				(path "/bd823326-686b-4669-b4e8-652a43eb6bb4/b6e9bfc2-4cf7-4d7e-81c9-9912399d557a"
-					(reference "U3")
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -2511,7 +2575,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "75a66409-ef85-4fc2-9a08-748d2efcce4c")
-		(property "Reference" "C17"
+		(property "Reference" "C19"
 			(at 182.88 44.4499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2575,7 +2639,7 @@
 		(instances
 			(project "stm32f103c8t6"
 				(path "/bd823326-686b-4669-b4e8-652a43eb6bb4/b6e9bfc2-4cf7-4d7e-81c9-9912399d557a"
-					(reference "C17")
+					(reference "C19")
 					(unit 1)
 				)
 			)
@@ -2613,7 +2677,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 187.96 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -2704,7 +2768,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 187.96 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -2765,6 +2829,84 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 132.08 118.11 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9df8af7b-d485-489d-aa30-1a2440a4947d")
+		(property "Reference" "#PWR058"
+			(at 132.08 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 132.08 123.19 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 132.08 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 132.08 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fc9a41bb-8b46-4a5e-b2e8-71cb96d291a1")
+		)
+		(instances
+			(project "stm32f103c8t6"
+				(path "/bd823326-686b-4669-b4e8-652a43eb6bb4/b6e9bfc2-4cf7-4d7e-81c9-9912399d557a"
+					(reference "#PWR058")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 207.01 68.58 0)
 		(unit 1)
 		(body_style 1)
@@ -2775,7 +2917,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a9c76b76-8603-4763-93cf-6adef27fe7f9")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR056"
 			(at 207.01 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -2835,7 +2977,7 @@
 		(instances
 			(project "stm32f103c8t6"
 				(path "/bd823326-686b-4669-b4e8-652a43eb6bb4/b6e9bfc2-4cf7-4d7e-81c9-9912399d557a"
-					(reference "#PWR042")
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -2852,7 +2994,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b13ce506-fbd7-4807-98be-8e0d5c5ae923")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR049"
 			(at 114.3 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -2912,7 +3054,7 @@
 		(instances
 			(project "stm32f103c8t6"
 				(path "/bd823326-686b-4669-b4e8-652a43eb6bb4/b6e9bfc2-4cf7-4d7e-81c9-9912399d557a"
-					(reference "#PWR038")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -2929,7 +3071,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b7859eda-5a4a-4b54-a4e9-ac2d15537795")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR055"
 			(at 179.07 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -2989,7 +3131,7 @@
 		(instances
 			(project "stm32f103c8t6"
 				(path "/bd823326-686b-4669-b4e8-652a43eb6bb4/b6e9bfc2-4cf7-4d7e-81c9-9912399d557a"
-					(reference "#PWR041")
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -3007,7 +3149,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bf170094-5f4e-4502-8171-5bbcdb652e9e")
-		(property "Reference" "R23"
+		(property "Reference" "R34"
 			(at 205.74 106.68 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3027,7 +3169,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 205.994 105.156 90)
 			(hide yes)
 			(show_name no)
@@ -3069,7 +3211,7 @@
 		(instances
 			(project "stm32f103c8t6"
 				(path "/bd823326-686b-4669-b4e8-652a43eb6bb4/b6e9bfc2-4cf7-4d7e-81c9-9912399d557a"
-					(reference "R23")
+					(reference "R34")
 					(unit 1)
 				)
 			)
@@ -3087,7 +3229,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cdae375f-0693-462d-b2cf-ecb9b6d0c106")
-		(property "Reference" "C16"
+		(property "Reference" "C17"
 			(at 118.11 44.4499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3151,7 +3293,7 @@
 		(instances
 			(project "stm32f103c8t6"
 				(path "/bd823326-686b-4669-b4e8-652a43eb6bb4/b6e9bfc2-4cf7-4d7e-81c9-9912399d557a"
-					(reference "C16")
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -3168,7 +3310,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ceae9cdc-28c6-4dfc-bb50-afba80a124cf")
-		(property "Reference" "R21"
+		(property "Reference" "R32"
 			(at 117.856 92.964 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3188,7 +3330,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 121.666 94.996 90)
 			(hide yes)
 			(show_name no)
@@ -3230,7 +3372,7 @@
 		(instances
 			(project "stm32f103c8t6"
 				(path "/bd823326-686b-4669-b4e8-652a43eb6bb4/b6e9bfc2-4cf7-4d7e-81c9-9912399d557a"
-					(reference "R21")
+					(reference "R32")
 					(unit 1)
 				)
 			)
@@ -3247,7 +3389,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e84c0e0c-2cb7-4b30-a18f-e14209e716ca")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR052"
 			(at 153.67 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -3307,7 +3449,7 @@
 		(instances
 			(project "stm32f103c8t6"
 				(path "/bd823326-686b-4669-b4e8-652a43eb6bb4/b6e9bfc2-4cf7-4d7e-81c9-9912399d557a"
-					(reference "#PWR035")
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -3325,7 +3467,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f3cb2217-39bd-4bdf-ba00-eb1dfe8e5cf3")
-		(property "Reference" "C18"
+		(property "Reference" "C20"
 			(at 210.82 44.4499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3389,7 +3531,7 @@
 		(instances
 			(project "stm32f103c8t6"
 				(path "/bd823326-686b-4669-b4e8-652a43eb6bb4/b6e9bfc2-4cf7-4d7e-81c9-9912399d557a"
-					(reference "C18")
+					(reference "C20")
 					(unit 1)
 				)
 			)
@@ -3407,7 +3549,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f5505c8c-2c6a-4f03-bd1e-a9582d00deb1")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR048"
 			(at 101.6 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -3468,7 +3610,7 @@
 		(instances
 			(project "stm32f103c8t6"
 				(path "/bd823326-686b-4669-b4e8-652a43eb6bb4/b6e9bfc2-4cf7-4d7e-81c9-9912399d557a"
-					(reference "#PWR043")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -3485,7 +3627,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fd744303-132f-4311-8a83-bef418b3dc30")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR047"
 			(at 110.49 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -3545,7 +3687,7 @@
 		(instances
 			(project "stm32f103c8t6"
 				(path "/bd823326-686b-4669-b4e8-652a43eb6bb4/b6e9bfc2-4cf7-4d7e-81c9-9912399d557a"
-					(reference "#PWR044")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)

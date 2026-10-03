@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "jwj_lib") (type "KiCad") (uri "/home/jwj/Documents/kicad_ws/jwj_lib/jwj_lib.pretty") (options "") (descr ""))
+)
